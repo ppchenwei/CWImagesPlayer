@@ -42,8 +42,9 @@
     imagesPlayer.timeInterval = 3.5;
     [self.view addSubview:imagesPlayer];
     
+
     NSLog(@"This is a new branch Test1");
-    
+    NSLog(@"This is a new branch Test2");
 }
 
 - (void)didReceiveMemoryWarning {
