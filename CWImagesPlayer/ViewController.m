@@ -41,6 +41,8 @@
     imagesPlayer.delegate = self;
     imagesPlayer.timeInterval = 3.5;
     [self.view addSubview:imagesPlayer];
+    
+    NSLog(@"This is a new commit Test");
 }
 
 - (void)didReceiveMemoryWarning {
