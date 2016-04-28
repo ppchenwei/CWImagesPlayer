@@ -41,8 +41,6 @@
     imagesPlayer.delegate = self;
     imagesPlayer.timeInterval = 3.5;
     [self.view addSubview:imagesPlayer];
-
-    NSLog(@"This is already under source control");
 }
 
 - (void)didReceiveMemoryWarning {
