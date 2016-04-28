@@ -42,7 +42,8 @@
     imagesPlayer.timeInterval = 3.5;
     [self.view addSubview:imagesPlayer];
     
-    NSLog(@"This is a new commit Test");
+    NSLog(@"This is a new branch Test1");
+    
 }
 
 - (void)didReceiveMemoryWarning {
