@@ -27,6 +27,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    //Test
     CWImagesPlayer *imagesPlayer = [[CWImagesPlayer alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width , 200)];
     
     CWImageObject *image1 = [[CWImageObject alloc] initWithImageType:CWImageObjectTypeUrl image:nil imageUrl:ImageUrl1 placeholderImage:[UIImage imageNamed:@"placeholder"]];
@@ -41,10 +42,6 @@
     imagesPlayer.delegate = self;
     imagesPlayer.timeInterval = 3.5;
     [self.view addSubview:imagesPlayer];
-    
-
-    NSLog(@"This is a new branch Test1");
-    NSLog(@"This is a new branch Test2");
 }
 
 - (void)didReceiveMemoryWarning {
